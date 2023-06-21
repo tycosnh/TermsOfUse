@@ -42,7 +42,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'TermsOfUse'
+          app-name: 'OOBETZ'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4BD10D56139546AF95EFDAD984C11407 }}
           package: .
